@@ -669,7 +669,9 @@ void YoloObjectDetector::yolo()
       ss_fps << "MAX:" << max_fps << " MIN:" << min_fps;
 
       demoTime_ = what_time_is_it_now();
-      displayInThread(0);
+      if (viewImage_) {
+        displayInThread(0);
+      }
       generate_image_cp(buff_[(buffIndex_ + 1)%3], disp_);
 
       publishInThread();
