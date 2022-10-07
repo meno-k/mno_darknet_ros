@@ -174,3 +174,8 @@ ros2 launch darknet_ros yolov7.launch.py
 
 ## Acknowledgment
  I am not a good programmer, but I was able to implement it with the help of many repositories. Thank you to [AlexeyAB](https://github.com/AlexeyAB)'s [darknet](https://github.com/AlexeyAB/darknet) , [legged robotics](https://github.com/leggedrobotics)'s [darknet_ros](https://github.com/leggedrobotics/darknet_ros), and [Tossy0423](https://github.com/Tossy0423/)'s [darknet_ros](https://github.com/Tossy0423/yolov4-for-darknet_ros/) !
+
+
+## MNO 追加
+
+pede_yolo_oneclass.weightsをつくつくのgoogleドライブから引っぱってきて実行
