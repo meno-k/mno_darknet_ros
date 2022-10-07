@@ -1,0 +1,12 @@
+darknet_ros:
+  ros__parameters:
+    yolo_model:
+      config_file:
+        name: pede_yolo_oneclass.cfg
+      weight_file:
+        name: pede_yolo_oneclass.weights
+      threshold:
+        value: 0.5
+      detection_classes:
+        names:
+          - traffic light
