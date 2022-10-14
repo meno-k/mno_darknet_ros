@@ -179,3 +179,7 @@ ros2 launch darknet_ros yolov7.launch.py
 ## MNO 追加
 
 pede_yolo_oneclass.weightsをつくつくのgoogleドライブから引っぱってきて実行
+実行コマンド
+```bash
+ros2 launch darknet_ros yolov3.launch.py
+```
